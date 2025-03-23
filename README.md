@@ -121,7 +121,7 @@ I have made this library management system using Django REST Framework amd Mysql
 
         CMD : python manage.py createsuperuser
 
-    STEP-12 : START SEVER
+    STEP-12 : START SERVER
 
         CMD : python manage.py runserver
 
