@@ -47,7 +47,7 @@ I have made this library management system using Django REST Framework amd Mysql
             CMD : python manage.py startapp books
                     Here "books" is the name of app
 
-    STEP-4 : CONFIGURE settings.py FILE
+    STEP-4 : CONFIGURE settings.py FILE ------------------------------------------------->>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
         # Add 'books', 'rest_framework', 'rest_framework_simplejwt' in INSTALLED_APPS below its existing code.
             
