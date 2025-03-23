@@ -88,23 +88,23 @@ I have made this library management system using Django REST Framework amd Mysql
                     }
                 }                
 
-    STEP-5 : CREATE MODELS (models.py in books app).
+    STEP-5 : CREATE MODELS (models.py in books app). ------------------------------------------------->>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
         # Create your models.
 
-    STEP-6 : CREATE A NEW serializers.py FILE IN YOUR BOOKS APP.
+    STEP-6 : CREATE A NEW serializers.py FILE IN YOUR BOOKS APP ------------------------------------------------->>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
         # Create your modelserializers.
 
-    STEP-7 : CREATE VIEWS (views.py in books app).
+    STEP-7 : CREATE VIEWS (views.py in books app) ------------------------------------------------->>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
         # Create your views to perform CRUD operations here.
 
-    STEP-8 : DEFINE URLs (urls.py in books app)
+    STEP-8 : DEFINE URLs (urls.py in books app) ------------------------------------------------->>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
         # Make sure to create your urlpatterns here.
 
-    STEP-9 : CONFIGURE PROJECT URLs (urls.py in library_management)
+    STEP-9 : CONFIGURE PROJECT URLs (urls.py in library_management) ------------------------------------------------->>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
         # Make sure to write the following code with the existing code. 
 
@@ -112,16 +112,16 @@ I have made this library management system using Django REST Framework amd Mysql
                 1.> from django.urls import include
                 2.> path('api/', include('books.urls')), 
     
-    STEP-10 : RUN MIGRATIONS
+    STEP-10 : RUN MIGRATIONS ------------------------------------------------->>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
         CMD-1 : python manage.py makemigrations
         CMD-2 : python manage.py migrate
 
-    STEP-11 : CREATE SUPERUSER
+    STEP-11 : CREATE SUPERUSER ------------------------------------------------->>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
         CMD : python manage.py createsuperuser
 
-    STEP-12 : START SERVER
+    STEP-12 : START SERVER ------------------------------------------------->>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
         CMD : python manage.py runserver
 
