@@ -82,7 +82,7 @@ I have made this library management system using Django REST Framework amd Mysql
                         'ENGINE': 'django.db.backends.mysql',
                         'NAME': 'library_db',
                         'USER': 'Harsh',
-                        'PASSWORD': 'Harsh@123',
+                        'PASSWORD': '<your password>',
                         'HOST': 'localhost',
                         'PORT': '3306',
                     }
