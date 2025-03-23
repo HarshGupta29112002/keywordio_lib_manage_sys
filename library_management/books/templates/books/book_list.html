@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Library Books</title>
+    <style>
+        body{
+            background-color: LightGray;
+        }
+        h1{
+            color:white;
+            font-family: arial, sans-serif;
+            font-size:80px;
+            text-align : center;
+            background-image: url('https://images.unsplash.com/photo-1507842217343-583bb7270b66?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxMTc3M3wwfDF8c2VhcmNofDF8fGxpYnJhcnl8ZW58MHx8fHwxNjU4NDAwNTQ4&ixlib=rb-1.2.1&q=80&w=2000');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            border: 0px;
+            margin :0px;
+            padding:150px;
+
+        }
+        table {
+            font-family: arial, sans-serif;
+            border-collapse: collapse;
+            width: 100%;
+          }
+          td, th {
+            border: 1px solid #dddddd;
+            text-align: left;
+            padding: 8px;
+          }
+          tr:nth-child(odd) {
+            background-color: #dddddd;
+          }
+    </style>
+</head>
+<body>
+    <h1>Library Books</h1>
+    <ul>
+        <table>
+            <tr>
+                <th> TITLE </th>
+                <th> AUTHOR </th>
+                <th> ISBN </th>
+            </tr>
+            {% for book in books %}
+            <tr>
+                <td> {{ book.title }} </td>
+                <td> {{ book.author }} </td>
+                <td> {{ book.isbn }} </td>
+            </tr>
+            {% endfor %}
+    </ul>
+</body>
+</html>
